@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    width: 1400px;
+}
+
+header{
+    width: 1400px;
+    height: 700px;
+    background-color: #4A4A4A;
+}
+
+.primera-letra::first-letter{
+    color: yellow;
+}
+
+.menu{
+    width: 1400px;
+    height: 150px;
+    background-color:black;
+}
+
+.menu h1 {
+    font-size: 330%;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: darkgrey;
+}
+
+.menu h6{
+    font-size: 145%;
+    color: darkgrey;
+    margin-left: 100px;
+}
+.menu li{
+    font-size: 130%;
+    float: right;
+    margin-right: 70px;
+    margin-bottom: 65px;
+    margin-top: -25px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+section{
+    border-style:groove
+}
+
+.menu a{
+    color: white;
+}
+
+.menu p{
+    color: darkgray;
+}
+
+.moda-amarillo p{
+    display: inline-block;
+    position: relative;
+    color: yellow;
+}
+
+.moda-amarillo p::before{
+    content: '';
+    position:absolute;
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    margin-top: -35px;
+    margin-left: -2px;
+}
+
+.modamarcas img{
+    margin: auto;
+    display: table;
+    margin-top: -490px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuadro-blanco p{
+    width: 1300px;
+    height: 500px;
+    background-color: #EAE6E6;
+    margin-top: 20px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.sponsors{
+    float: right;
+    margin-top: -413px;
+    color: darkgray;
+    font-size: 200%;
+}
+
+.clasicos h5{
+    color: darkgray;
+    font-size: 200%;
+    margin-left: 165px;
+    margin-top: 20px;
+}
+
+.clasicos{
+    margin-left: -150px;
+    width: 1200px;
+}
+
+.clasicos hr{
+    width: 900px;
+    text-align: left;
+    margin-left: 165px;
+}
+
+.clasicos a{
+    text-decoration: none;
+    color: #841A1A;
+}
+
+.espalda{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-style: groove;
+}
+
+.tips h5{
+    color: darkgray;
+    font-size: 200%;
+    margin-left:15px;
+}
+
+.tips img{
+    margin-top: 20px;
+    border-style:groove;
+    padding: 5px;
+}
+
+.tips hr{
+    width: 900px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.tips p{
+    width: 600px;
+    margin-left: 10px;
+
+}
+
+.tips h4{
+    margin-left: 10px;
+}
+
+.tips a{
+    text-decoration: none;
+    color: #841A1A;
+}
+
+.nota{
+    text-align: right;
+    margin-right: 95px;
+}
+
+.footer{
+    background-color: #4A4A4A;
+    height: 400px;
+}
+
+.ultima-moda{
+    background-color: black;
+    color:darkgray;
+    height: 365px;
+}
+
+.ultima-moda hr{
+    border-style:dashed;
+    width: 90%;
+}
+
+.ultima-moda h5{
+    font-size: 200%;
+    margin-left: 20px;
+}
+
+.ultima-moda p{
+    width: 90%;
+    font-size: 24px;    
+}
+
+.ultima-moda a{
+    text-decoration: none;
+    color:yellow;   
+}
+
+.zapatos img{
+    margin-left: 20px;
+}
+
+.datos{
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+
+
